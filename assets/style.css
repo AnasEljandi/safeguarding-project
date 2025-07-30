@@ -1,17 +1,24 @@
-/* Navigation wrapper with border */
+/* ========== GLOBAL STYLES ========== */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ========== NAVIGATION ========== */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;        /* or your preferred background */
+  background-color: #ffffff;
   padding: 1rem 2rem;
-  border: 1px solid #004958;       
-  border-radius: 6px;               
-  box-shadow: 0 2px 4px #004958; 
+  border: 1px solid #004958;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px #004958;
   margin: 20px;
 }
 
-/* Logo border styling */
+/* Logo styling */
 nav .logo img {
   height: 50px;
   border: 1px solid #cccccc;
@@ -19,22 +26,108 @@ nav .logo img {
   padding: 4px;
 }
 
-/* Use ul/li for nav items (semantic) */
+/* Navigation links */
 nav .nav-buttons {
   list-style: none;
   display: flex;
   gap: 1rem;
+  margin: 0;
+  padding: 0;
 }
 
 nav .nav-buttons a {
   text-decoration: none;
-  color: #004958;;
+  color: #004958;
   border: 1px solid #cccccc;
   padding: 8px 14px;
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
 }
+
 nav .nav-buttons a:hover {
   background-color: #e4e4e4;
   color: #004958;
+}
+
+/* ========== HERO SECTION ========== */
+.hero-image {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),
+  url("images/istockphoto-1184889001-612x612.jpg"); /* Use your final image */
+
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+  position: relative;
+}
+
+.hero-image .hero-text {
+  max-width: 800px;
+}
+
+.hero-image h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-image p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.hero-image .btn {
+  background-color: white;
+  color: #333;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hero-image .btn:hover {
+  background-color: #2c7a7b;
+  color: white;
+}
+
+/* ========== RESPONSIVE (Mobile) ========== */
+@media (max-width: 768px) {
+  .hero-image h1 {
+    font-size: 2rem;
+  }
+
+  .hero-image p {
+    font-size: 1rem;
+  }
+
+  .hero-image .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  nav .nav-buttons {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 }
