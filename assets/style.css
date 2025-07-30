@@ -1,0 +1,41 @@
+/* Navigation wrapper with border */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;        /* or your preferred background */
+  padding: 1rem 2rem;
+  border: 1px solid #004958;       
+  border-radius: 6px;               
+  box-shadow: 0 2px 4px #004958; 
+  margin: 20px;
+}
+
+/* Logo border styling */
+nav .logo img {
+  height: 50px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+/* Use ul/li for nav items (semantic) */
+nav .nav-buttons {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+nav .nav-buttons li {
+}
+nav .nav-buttons a {
+  text-decoration: none;
+  color: #004958;;
+  border: 1px solid #cccccc;
+  padding: 8px 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+nav .nav-buttons a:hover {
+  background-color: #e4e4e4;
+  color: #004958;
+}
