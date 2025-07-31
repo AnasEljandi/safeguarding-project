@@ -122,39 +122,60 @@ This wireframe shows the **mobile layout** for the Safeguarding Awareness websit
 ![Mobile Wireframe](assets/wireframes/{53535655-5B09-44A1-9528-988405F67227}.png)
 
 
-### Typography
+### ✍️ Typography
 
-- **Headings**: Montserrat – for clarity and impact  
-- **Body Text**: Roboto – for readability and accessibility
+The project uses Google Fonts for consistency, clarity, and accessibility.
 
-### Colour Scheme
+- **Body & UI Text Font:** [Arimo](https://fonts.google.com/specimen/Arimo)  
+  A clean, professional sans-serif font that improves readability, especially on smaller screens.
 
-| Element         | Colour   | Hex Code   |
-|----------------|----------|------------|
-| Primary Color   | Teal     | `#005A66`  |
-| Accent Color    | White    | `#FFFFFF`  |
-| Text Color      | Dark Gray| `#333333`  |
-| Buttons         | Light Gray | `#f5f5f5`  |
+- **Weight Used:** 400 (regular), 700 (bold)
 
-> Screenshot of palette can be added here.
+### 🎨 Colour Scheme
+
+The following color palette was generated using [Super Fast Color Palette Generator](https://www.colourpalettegenerator.com/) and is used throughout the Safeguarding Awareness website for consistent branding and visual clarity:
+
+| Color Name | Hex Code | Usage |
+|------------|----------|-------|
+| Dark Teal  | `#004956` | Navigation bar, footer background |
+| Teal       | `#006273` | Button backgrounds, links |
+| Light Teal | `#00A3BF` | Section highlights, borders |
+| Cyan       | `#00B8D9` | Hover effects, icons |
+| Bright Blue| `#00D9FF` | Call-to-action buttons, accents |
+
+#### Colour Palette Preview:
+
+![Colour Palette](assets/design/bf52e83a-85bf-41a1-929e-3609030af1b8.png)
+
 
 ---
 
 ## Features
 
-### Navigation
+###  Navigation
 
-- A fixed navigation bar
-- Four main links: What is Safeguarding?, Signs to Watch For, Action Steps, Contact
-- Mobile responsive menu
+The site features a fixed top navigation bar for quick access to key sections of the site. It includes:
+
+- A **logo** on the left side for brand identity.
+- Four main links:
+  - **What is Safeguarding?**
+  - **Signs to Watch For**
+  - **Action Steps**
+  - **Contact**
+- Each link uses anchor tags to smoothly scroll to the corresponding section on the page.
+- The navigation menu is **fully responsive**, adjusting to different screen sizes and stacking into a vertical menu on mobile devices.
+
+#### Navigation Preview:
+
+![Navigation Bar](assets/images/navigation-bar.png.png)
+
 
 ### Footer
-
-- Social media icons
-- Legal disclaimer or safeguarding hotline (optional)
+![Footer](assets/images/footer.png)
 - Copyright notice
 
 ### Home Page
+![Homepage](assets/images/home%20page.png)
 
 - Hero section with motivational headline:  
   _"Everyone should always have the right to be safe"_
