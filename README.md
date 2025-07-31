@@ -30,7 +30,7 @@
 ### User Stories
 ## User Stories
 
-### 🟢 User Story 1: Understand What Safeguarding Is (Must-Have)
+###  User Story 1: Understand What Safeguarding Is (Must-Have)
 **As a** concerned visitor,  
 **I want** a simple explanation of what safeguarding is,  
 **So that** I can quickly understand its purpose and importance.
@@ -42,7 +42,7 @@
 
 ---
 
-### 🟢 User Story 2: Recognise the Signs of Abuse or Neglect (Must-Have)
+###  User Story 2: Recognise the Signs of Abuse or Neglect (Must-Have)
 **As a** parent, teacher, or carer,  
 **I want** to see a list of common signs of abuse or neglect,  
 **So that** I can identify if someone may be at risk.
@@ -54,7 +54,7 @@
 
 ---
 
-### 🟢 User Story 3: Know What Steps to Take in a Safeguarding Situation (Must-Have)
+### User Story 3: Know What Steps to Take in a Safeguarding Situation (Must-Have)
 **As a** member of the public,  
 **I want** to know what to do if I have a safeguarding concern,  
 **So that** I can respond correctly and responsibly.
@@ -66,7 +66,7 @@
 
 ---
 
-### 🟢 User Story 4: Access the Website Easily on Any Device (Must-Have)
+###  User Story 4: Access the Website Easily on Any Device (Must-Have)
 **As a** mobile or tablet user,  
 **I want** the site to work smoothly on all devices,  
 **So that** I can read and scroll without any layout issues.
@@ -78,7 +78,7 @@
 
 ---
 
-### 🟡 User Story 5: Contact the Right Person in a Crisis (Should-Have)
+###  User Story 5: Contact the Right Person in a Crisis (Should-Have)
 **As someone** with an urgent safeguarding concern,  
 **I want** to quickly find contact details for relevant safeguarding authorities,  
 **So that** I can report my concern without delay.
@@ -90,7 +90,7 @@
 
 ---
 
-### 🟡 User Story 6: Learn Who Safeguarding Protects (Should-Have)
+###  User Story 6: Learn Who Safeguarding Protects (Should-Have)
 **As a** curious visitor,  
 **I want** to know who is protected by safeguarding policies,  
 **So that** I understand why it's necessary and who benefits from it.
@@ -101,7 +101,7 @@
 
 ---
 
-### 🔵 User Story 7: Feel Empowered to Act (Could-Have)
+###  User Story 7: Feel Empowered to Act (Could-Have)
 **As a** bystander,  
 **I want** to feel encouraged and confident about reporting concerns,  
 **So that** I don’t second-guess myself or stay silent.
@@ -147,8 +147,9 @@ The following color palette was generated using [Super Fast Color Palette Genera
 
 ![Colour Palette](assets/design/bf52e83a-85bf-41a1-929e-3609030af1b8.png)
 
+###  Favicon
 
----
+A custom **favicon** (short for "favorite icon") has been added to the website to improve branding and user experience. It appears in the browser tab and bookmarks.
 
 ## Features
 
@@ -189,19 +190,21 @@ The site features a fixed top navigation bar for quick access to key sections of
 - External resource links
 - Responsive design across all devices
 
----
 
 ## Technologies Used
 
-- HTML5  
-- CSS3  
-- Bootstrap 5  
-- Google Fonts  
-- Git & GitHub  
-- Gitpod  
-- Font Awesome
+- **HTML5** – Structure and semantic layout of web pages  
+- **CSS3** – Custom styling and layout design  
+- **Bootstrap 5** – Responsive grid system and prebuilt components  
+- **Google Fonts** – For clean, accessible typography (Arimo, Montserrat, Roboto)  
+- **Font Awesome** – Icon library used for interface elements  
+- **Git** – Version control to track changes locally  
+- **GitHub** – Remote code repository and GitHub Pages deployment  
+- **Gitpod** – Online IDE used for writing and testing code  
+- **W3C Validators** – Used to validate HTML and CSS for standards compliance  
+- **ami.responsivedesign.is** – For displaying responsive design mockups  
+- **BrowserStack (breakpoints guide)** – Reference for responsive design across devices  
 
----
 
 ## Testing
 
@@ -213,27 +216,38 @@ The site features a fixed top navigation bar for quick access to key sections of
 
 Tested on:
 
-- Chrome  
-- Firefox  
-- Safari  
-- Edge  
-- Mobile browsers (Samsung Internet, iOS Safari)
+- Chrome   
+- Edge  git
 
-### Responsiveness
+### 📱 Responsiveness
 
-Screenshots taken for:
+The Safeguarding Awareness website has been designed to work across a variety of screen sizes and devices, including:
 
-- iPhone SE (320px)  
-- iPad (768px)  
-- Surface Laptop (1024px)  
-- Desktop (1920px)
+- Mobile phones (320px+)
+- Tablets (768px+)
+- Laptops and desktops (1024px–1920px+)
 
-### Code Validation
+This was achieved using a responsive **Bootstrap 5 layout** and custom media queries for fine-tuning.
 
-- [W3C HTML Validator](https://validator.w3.org/)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+#### Responsive Layout Preview:
 
-> Screenshots of validation results to be included
+![Responsive Design Preview](assets/images/responsiveness.png)
+
+### ✅ Code Validation
+
+All HTML and CSS files were checked using the official [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+
+- ✅ **HTML Validation**: No errors or warnings found
+- ✅ **CSS Validation**: No errors or warnings found
+
+#### Validation Screenshots:
+
+**HTML Validation**
+![HTML Validation Result](assets/design/html%20validation.png)
+
+**CSS Validation**
+![CSS Validation Result](assets/design/css%20vaalidation.png)
+
 
 ### Manual Testing
 
@@ -247,12 +261,7 @@ Screenshots taken for:
 
 ## Bugs
 
-| Bug | Fix |
-|-----|-----|
-| Navigation menu not collapsing on mobile | Fixed with Bootstrap JS |
-| Image not loading in hero | Corrected path and file name |
-| Text overlap in smaller screens | Added media queries |
-
+- no major bugs due to validation checks
 ---
 
 ## Deployment
@@ -273,23 +282,46 @@ Screenshots taken for:
 5. Your site will be published at:  
    `https://yourusername.github.io/safeguarding-project/`
 
----
+  ##  Live Site
 
-## Credits
+This is my deployed Safeguarding Awareness website:  
+👉 [Click here to view the live site](https://anaseljandi.github.io/safeguarding-project/)
 
-### Code & Text Content
 
-- Definitions from NSPCC & Gov.uk  
-- Code snippets referenced from MDN Web Docs  
-- Structure inspired by Bootstrap examples
+##  Credits
 
-### Media
+###  Code & Development Resources
 
-- Hero image from [Unsplash](https://unsplash.com)  
-- Icons from [Font Awesome](https://fontawesome.com)
+- [MDN Web Docs](https://developer.mozilla.org/) – reference for HTML/CSS/JavaScript syntax
+- [Bootstrap](https://getbootstrap.com/) – responsive grid system and UI components
+- [GitHub](https://github.com/) – project version control and hosting
+- ChatGPT – used for guidance, planning, and markdown structure assistance
+
+
+
+### Media & Imagery
+
+- [Pexels](https://www.pexels.com/) – free stock images
+- [iStock](https://www.istockphoto.com/) – commercial-quality stock imagery
+- [Unsplash](https://unsplash.com/) – high-quality open-license images
+
+
+
+###  Fonts & Visual Tools
+
+- [Google Fonts](https://fonts.google.com/) – used for font integration (Arimo, Montserrat, Roboto)
+- [Colour Palette Generator](https://www.colourpalettegenerator.com/) – created accessible and consistent color themes
+
+
+
+###  Responsiveness & Testing
+
+- [ami.responsivedesign.is](https://ui.dev/amiresponsive) – generated device mockups to showcase responsiveness
+- [BrowserStack – Responsive Design Breakpoints](https://www.browserstack.com/guide/responsive-design-breakpoints) – reference guide for device sizes and breakpoints
+
 
 ### Acknowledgments
 
-- Code Institute for template  
-- Mentors and classmates for feedback  
-- Online communities like Stack Overflow
+- [Code Institute](https://codeinstitute.net/) – template and educational support
+- Mentors and classmates – peer feedback and code review
+- [Stack Overflow](https://stackoverflow.com/) – technical solutions and troubleshooting
