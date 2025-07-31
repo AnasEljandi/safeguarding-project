@@ -117,7 +117,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 4rem 2rem;
-  background-color: white;
+  background-color:  #004958;
   gap: 2rem;
   font-family: 'Arimo', sans-serif;
 }
@@ -135,7 +135,7 @@ nav {
 
 .text-content p {
   font-size: 1rem;
-  color: #333;
+  color:white;
   margin-bottom: 1rem;
 }
 
@@ -152,7 +152,7 @@ nav {
 }
 
 .btn-primary:hover {
-  background-color: #0d2db0;
+  background-color: #00b8d9;;
 }
 
 .image-content img {
@@ -197,4 +197,144 @@ nav {
   .image-content img {
     margin-top: 2rem;
   }
+}
+
+.signs-section {
+  padding: 4rem 2rem;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.signs-section h2 {
+  font-size: 2.2rem;
+  color: #00b8d9;;
+  margin-bottom: 2rem;
+}
+
+/*card grid section*/
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #00D9FF; /* Bright cyan background */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+  color: #000; /* Ensure text is readable */
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.card-content h3 {
+  font-size: 1.25rem;
+  color: #003e4d; /* Dark cyan/teal for better contrast */
+  margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: #002a35; /* Dark blue-gray for readability */
+  margin-bottom: 1rem;
+}
+
+
+.card-content a {
+  color: #004958;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+.card-content a:hover {
+  text-decoration: underline;
+}
+.signs-section {
+  padding: 3rem 2rem;
+  background: #004958;
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+}
+
+.signs-section h2 {
+  color: #00D9FF;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.signs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+
+.sign-card {
+  background: #00D9FF;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.sign-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  margin: 0;
+  color: #003e4d;
+  font-size: 1.25rem;
+}
+
+.card-content p {
+  color: #003e4d;
+  margin-top: 0.5rem;
+}
+
+.sign-details {
+  text-align: left;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.sign-details h3 {
+  color: #00D9FF;
+  margin-bottom: 0.5rem;
+}
+
+.sign-details ul {
+  padding-left: 1.2rem;
+  color: #333;
+}
+
+.sign-details ul li {
+  margin-bottom: 0.5rem;
 }
