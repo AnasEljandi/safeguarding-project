@@ -28,21 +28,99 @@
 ## Design & Planning
 
 ### User Stories
+## User Stories
 
-| ID | As a... | I want to... | So that I can... |
-|----|---------|--------------|------------------|
-| 1  | User | Understand what safeguarding is | Become more aware and informed |
-| 2  | Parent | Identify warning signs | Take action to protect children |
-| 3  | Teacher | Access steps to take | Properly report and handle concerns |
-| 4  | Visitor | Navigate site easily | Find information quickly and confidently |
+### 🟢 User Story 1: Understand What Safeguarding Is (Must-Have)
+**As a** concerned visitor,  
+**I want** a simple explanation of what safeguarding is,  
+**So that** I can quickly understand its purpose and importance.
+
+**Acceptance Criteria:**
+- Clear definition of safeguarding shown near the top of the site.
+- Avoids complex terms or jargon.
+- Includes who safeguarding applies to (e.g., children, vulnerable adults).
+
+---
+
+### 🟢 User Story 2: Recognise the Signs of Abuse or Neglect (Must-Have)
+**As a** parent, teacher, or carer,  
+**I want** to see a list of common signs of abuse or neglect,  
+**So that** I can identify if someone may be at risk.
+
+**Acceptance Criteria:**
+- “Signs to Watch For” section includes visual cues or bullet points.
+- Covers emotional, physical, and behavioral signs.
+- Content is accessible and readable across devices.
+
+---
+
+### 🟢 User Story 3: Know What Steps to Take in a Safeguarding Situation (Must-Have)
+**As a** member of the public,  
+**I want** to know what to do if I have a safeguarding concern,  
+**So that** I can respond correctly and responsibly.
+
+**Acceptance Criteria:**
+- “Action Steps” section includes clear, numbered instructions.
+- Includes contact details or guidance for escalation.
+- Reassures user that acting on concern is the right thing to do.
+
+---
+
+### 🟢 User Story 4: Access the Website Easily on Any Device (Must-Have)
+**As a** mobile or tablet user,  
+**I want** the site to work smoothly on all devices,  
+**So that** I can read and scroll without any layout issues.
+
+**Acceptance Criteria:**
+- Site uses responsive Bootstrap layout.
+- Text, buttons, and links are sized for small screens.
+- No horizontal scrolling or layout breaks on mobile.
+
+---
+
+### 🟡 User Story 5: Contact the Right Person in a Crisis (Should-Have)
+**As someone** with an urgent safeguarding concern,  
+**I want** to quickly find contact details for relevant safeguarding authorities,  
+**So that** I can report my concern without delay.
+
+**Acceptance Criteria:**
+- Contact section includes phone numbers, email, or links to local authorities.
+- Easy to find from any point on the page (via navbar or link).
+- Styled clearly to draw attention.
+
+---
+
+### 🟡 User Story 6: Learn Who Safeguarding Protects (Should-Have)
+**As a** curious visitor,  
+**I want** to know who is protected by safeguarding policies,  
+**So that** I understand why it's necessary and who benefits from it.
+
+**Acceptance Criteria:**
+- The “What is Safeguarding?” section or a callout box mentions groups at risk (e.g., children, elderly, disabled).
+- May include short examples or icons for clarity.
+
+---
+
+### 🔵 User Story 7: Feel Empowered to Act (Could-Have)
+**As a** bystander,  
+**I want** to feel encouraged and confident about reporting concerns,  
+**So that** I don’t second-guess myself or stay silent.
+
+**Acceptance Criteria:**
+- Action section includes a positive, encouraging message.
+- *Optional:* Include a real-life quote or testimonial about successful safeguarding intervention.
 
 ### Wireframes
 
-Below is the wireframe created using Balsamiq for the mobile layout:
+This wireframe shows the **mobile layout** for the Safeguarding Awareness website. It includes:
 
-![Wireframe](wireframes/mobile-wireframe.png)
+- A fixed logo area at the top  
+- Navigation buttons for key sections  
+- A central hero image area  
+- Space for content and imagery below
 
-> Note: You can update the image path to match your repository structure.
+![Mobile Wireframe](assets/wireframes/{53535655-5B09-44A1-9528-988405F67227}.png)
+
 
 ### Typography
 
