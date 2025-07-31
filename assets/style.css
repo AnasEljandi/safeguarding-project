@@ -230,14 +230,13 @@ nav {
 }
 
 .card {
-  background-color: #00D9FF; /* Bright cyan background */
+  background-color: #00D9FF; 
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s ease;
-  color: #000; /* Ensure text is readable */
+  color: #000; 
 }
-
 
 .card:hover {
   transform: translateY(-5px);
@@ -256,13 +255,13 @@ nav {
 
 .card-content h3 {
   font-size: 1.25rem;
-  color: #003e4d; /* Dark cyan/teal for better contrast */
+  color: #003e4d; 
   margin-bottom: 0.5rem;
 }
 
 .card-content p {
   font-size: 1rem;
-  color: #002a35; /* Dark blue-gray for readability */
+  color: #002a35; 
   margin-bottom: 1rem;
 }
 
@@ -484,7 +483,7 @@ nav {
 
 .contact-form input:invalid,
 .contact-form textarea:invalid {
-  border-color: red;
+  border-color: #00d9ff
 }
 
 .contact-form input:valid,
@@ -505,4 +504,13 @@ button.tag-button {
 
 button.tag-button:hover {
   background-color: #00b6d4;
+}
+
+.site-footer {
+  background-color: #00A3BF;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-family: 'Arimo', sans-serif;
+  font-size: 0.9rem;
 }
