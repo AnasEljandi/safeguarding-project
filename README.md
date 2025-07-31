@@ -325,3 +325,15 @@ This is my deployed Safeguarding Awareness website:
 - [Code Institute](https://codeinstitute.net/) – template and educational support
 - Mentors and classmates – peer feedback and code review
 - [Stack Overflow](https://stackoverflow.com/) – technical solutions and troubleshooting
+
+## 🚦 Lighthouse Performance
+
+[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used in **Google Chrome DevTools** to evaluate the overall quality and performance of the site on both mobile and desktop devices.
+
+
+### 💻 Desktop Report
+
+![Lighthouse Desktop](assets/images/lighthouse.png)
+- The website ran well in the desktop report meaning it is very responsive and able to be used!
+
+
